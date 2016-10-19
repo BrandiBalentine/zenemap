@@ -1,0 +1,12 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($property, $duration, $timingfunction) {
+  -webkit-transition: $property $duration $timingfunction;
+  -o-transition: $property $duration $timingfunction;
+  -moz-transition: $property $duration $timingfunction;
+  transition: $property $duration $timingfunction;
+}

@@ -1,0 +1,31 @@
+<div class="container-content">
+  <div class="container-maps">
+    <h2>What do you have time for?</h2>
+    <div class="button-box">
+      {{input id="search"
+              class="search-box"
+              type="text"
+              placeholder="Where should we check?"
+      }}
+      <button class="button" {{action "searchPlaces"}}>Go!</button>
+    </div>
+    <div class="map-canvas"></div>
+    {{#if destination}}
+      <p>{{destination}} is {{distance}} away. It takes {{duration}} to walk there.</p>
+    {{/if}}
+  </div>
+  <div class="container-locations">
+    {{#each-in locations as |category locations|}}
+      <h2>{{category}}</h2>
+      <ul>
+        {{#each locations as |location|}}
+          <li class="location">
+            <h3>{{location.name}}</h3>
+            <button class="button" {{action "getDirections" location.name location.address}}>Go!</button>
+          </li>
+        {{/each}}
+      </ul>
+    {{/each-in}}
+    {{yield}}
+  </div>
+</div>

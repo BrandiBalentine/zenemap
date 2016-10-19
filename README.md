@@ -1,7 +1,13 @@
-# Zenemap
+# ZeneMap
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Have you ever wondered if you had time to run an errand during work hours?
+Use ZeneMap to find out!
+
+* Just type where you want to go in the search box above the map to get the
+time and distance required for your errand.
+
+* You can also choose from preloaded restaurants, shipping services, or gyms
+listed on the right of the map.
 
 ## Prerequisites
 
@@ -15,19 +21,15 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone git@github.com:BrandiBalentine/zenemap.git`
+* change into `zenemap`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+* Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Running Tests
 
@@ -39,10 +41,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

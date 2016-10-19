@@ -1,0 +1,39 @@
+
+// Set to default font-size of 16px for all browsers
+html  {
+  font-size: 16px;
+}
+
+// Body Font
+body {
+  @import url('https://fonts.googleapis.com/css?family=News+Cycle');
+  color: $black;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 62.5%; // 1em = 10px
+}
+
+// Headers and Paragraph Text
+h1 {
+  color: $font-color-dark;
+  font-size: 2.6em; // 26px/10px
+  margin: 0;
+}
+
+h2 {
+  color: $primary-color;
+  font-size: 2.4em; // 24px/10px
+  margin: 5px;
+}
+
+h3 {
+  font-size: 1.6em // 16px/10px
+}
+
+p {
+  font-size: 1.8em // 18px/10px
+}
+
+// Links
+a {
+  text-decoration: none;
+}

@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'zenemap',
     environment: environment,
+    podModulePrefix: 'zenemap/pods',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
